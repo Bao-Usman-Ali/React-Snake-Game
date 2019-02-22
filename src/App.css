@@ -1,33 +1,174 @@
-.App {
-  text-align: center;
+.hidden{
+  display: none;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body{
+  
+  margin: 0%;
+  padding: 0%
+  
+}
+.new{
+  position: absolute;
+  top: 35%;
+  left: 63%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media(max-width:1070px)
+{
+    .snake{
+     width: 500px;
+     height: 500px;
+    }
+} 
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media(max-width:1296px)
+{
+    .new{
+     left: 70%;
+    }
+} 
+
+
+@media(max-width:1136px)
+{
+    .new{
+     width: 300px;
+     left: 72%
+
+    }
+}  
+
+@media(max-width:1096px)
+{
+    .new{
+     width: 250px;
+     left: 73%
+     
+    }
+} 
+
+@media(max-width:992px)
+{
+    .new{
+     width: 250px;
+     left: 69%;
+     
+    }
+} 
+
+@media(max-width:894px)
+{
+    .snake{
+     width: 480px;
+     height: 480px;
+     
+    }
+} 
+
+
+@media(max-width:796px)
+{
+    .snake{
+     width: 450px;
+     height: 450px;
+     
+    }
+} 
+
+@media(max-width:796px)
+{
+    .new{
+     width: 230px;
+    
+     
+    }
+} 
+
+
+@media(max-width:746px)
+{
+    .snake{
+      width: 430px;
+      height: 430px;
+    
+     
+    }
+} 
+
+@media(max-width:746px)
+{
+    .new{
+     width: 210px;
+    
+     
+    }
+} 
+
+
+@media(max-width:713px)
+{
+    .snake{
+     width: 415px;
+     height: 415px;
+     
+    }
+} 
+
+@media(max-width:713px)
+{
+    .new{
+     width: 200px;
+    
+     
+    }
+} 
+
+@media(max-width:692px)
+{
+    .new{
+     left: 10%;
+     top: 66%;
+     width: 400px;
+    
+     
+    }
+} 
+
+@media(max-width:463px)
+{
+    .snake{
+     width: 390px;
+     height: 390px;    
+     
+    }
+} 
+@media(max-width:463px)
+{
+    .new{
+     width: 350px;
+       
+     
+    }
+} 
+
+
+@media(max-width:436px)
+{
+    .snake{
+     width: 335px;
+     height: 335px;    
+     
+    }
+} 
+@media(max-width:436px)
+{
+    .new{
+     width: 300px;
+     top: 58%;
+        
+     
+    }
 }
